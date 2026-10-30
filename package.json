@@ -1,0 +1,32 @@
+{
+  "name": "@replace-params/check-params",
+  "version": "1.0.0",
+  "description": "A parameter validation utility for placeholder replacement operations.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "dependencies": {
+    "@replace-placeholder/validation": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReplacePlaceholders/check-params.git"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "message": {
+    "type": "string"
+  },
+  "params": {
+    "type": "object",
+    "allowNull": false
+  },
+  "prefix": {
+    "type": "non-empty-string"
+  },
+  "suffix": {
+    "type": "non-empty-string"
+  }
+}
