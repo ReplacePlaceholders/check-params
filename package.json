@@ -1,5 +1,5 @@
 {
-  "name": "@replace-params/check-params",
+  "name": "@replace-placeholder/check-params",
   "version": "1.0.0",
   "description": "A parameter validation utility for placeholder replacement operations.",
   "type": "module",
